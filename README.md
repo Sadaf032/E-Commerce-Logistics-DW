@@ -1,44 +1,59 @@
-# Project Title
+# 🚚 E-Commerce Logistics Data Warehouse Dashboard
 
-Short one-line description of your project.
+A **Business Intelligence (BI) & Data Warehouse-based Analytics System** built using Java, JavaFX, MySQL, JDBC, and JFreeChart.  
+This project provides real-time insights into e-commerce logistics operations such as orders, deliveries, revenue, and performance metrics.
 
 ---
 
 ## 📌 Overview
 
-Project ka simple explanation:
-- Ye project kya karta hai
-- Kis problem ko solve karta hai
-- Kis domain se related hai
+This project is designed to simulate a real-world **logistics data warehouse system** used in e-commerce platforms.
+
+It helps to:
+
+- Analyze large-scale logistics data efficiently  
+- Visualize business KPIs through interactive dashboards  
+- Improve decision-making using data-driven insights  
+- Demonstrate Data Warehouse + BI concepts in a practical Java application  
+
+The system eliminates manual reporting by providing a **centralized analytics dashboard** for logistics operations.
 
 ---
 
 ## 🚀 Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-- Feature 4
+- 📊 Interactive JavaFX-based Dashboard  
+- 📦 Order lifecycle tracking (Delivered / Pending / Delayed)  
+- 💰 Revenue, profit, and financial analytics  
+- 🚚 Delivery performance monitoring  
+- 🏢 Logistics partner evaluation system  
+- 📈 Dynamic charts using JFreeChart  
+- 🗄️ MySQL database integration with JDBC  
+- ⚡ KPI-based real-time analytics  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Technology 1
-- Technology 2
-- Technology 3
-- Database (if any)
+- **Java (OOP, Core Java)**
+- **JavaFX (UI Development)**
+- **JDBC (Database Connectivity)**
+- **MySQL (Database Management System)**
+- **JFreeChart (Data Visualization)**
+- **IntelliJ IDEA (Development Environment)**
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-project-folder/
+E-Commerce Logistics DW/
 │
 ├── src/
-│   ├── MainFile.java
-│   ├── Helper.java
+│   ├── ModernDashboard.java        # Main Dashboard UI
+│   ├── DBConnector.java            # Database Connection Handler
 │
-├── database/
-├── README.md
+├── .idea/                          # IntelliJ configuration files
+├── .gitignore                      # Ignored files configuration
+├── E-Commerce Logistics DW.iml     # Project module file
+└── README.md                       # Project documentation
